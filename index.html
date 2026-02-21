@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: aquamarine;">
     <title>My TSA Website</title>
-    <h1>Welcome to My TSA Website</h1>
+    <h1 style="text-align: center; font-size: 60px;">Welcome to My TSA Website</h1>
+    <div class="card-container">
+        <div class="card">
+            <h1>What is the competition?</h1>
+            <p>This is one of the competitions hosted by the Technology Student Association or TSA. TSA's goal is to help kids in a world full of technology and help them grow. This competition specifically is to help build programming skills, creativity, and to learn a few things along the way. This years design brief is "Community Story". We hope you enjoy the website!</p>
+        </div>
+        <div class="card">
+            <h1>Why?</h1>
+            <p>Me and My teammates chose this event because we enjoy programming and making new things. This event gave us a chance to do that and expand on what we know about coding languages like HTML and JavaScript. We also gain experience for do more things like this like jobs or just as a hobbie.</p>
+        </div>
+    </div>
 </body>
+<style>
+    .card-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 50px;
+        background: grey;
+        padding: 15px;
+        border-radius: 20px;
+        width: fit-content;
+        max-width: 400px;
+    }
+    .center-list {
+      list-style-position: inside;
+      text-align: center;
+    }
+</style>
 </html>
