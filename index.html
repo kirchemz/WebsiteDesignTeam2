@@ -1,41 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body style="background-color: aquamarine;">
-    <title>My TSA Website</title>
-    <h1 style="text-align: center; font-size: 60px;">Welcome to My TSA Website</h1>
-    <div class="card-container">
-        <div class="card">
-            <h1>What is the competition?</h1>
-            <p>This is one of the competitions hosted by the Technology Student Association or TSA. TSA's goal is to help kids in a world full of technology and help them grow. This competition specifically is to help build programming skills, creativity, and to learn a few things along the way. This years design brief is "Community Story". We hope you enjoy the website!</p>
+<html>
+    <head>
+        <title>TSA Website Design MPMS Team 2</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet');
+            .card {
+                background: #fff;
+                width: 250px;
+                padding: 20px;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                transition: transform 0.2s ease;
+            }
+            .card-container {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(175, 203, 255);">
+        <h1 style="font-size: clamp(1rem, 5vw, 5rem); text-align: center; font-family: Comfortaa;">Mills Park Middle School's Community</h1>
+        <div class="card-container">
+            <div class="card" style="width: clamp(50px, 20vw, 400px);">
+                <h1 style="text-align: center; font-size: clamp(0.5rem, 5vw, 4rem);">MPMS</h1>
+                <p style="font-family: Comfortaa; text-align: center; font-size: clamp(0.3rem, 3vw, 2rem);">Mills Park Middle School is full of great teachers and students. It was made in 2010 and in these 16 years it has grown a lot.</p>
+            </div>
         </div>
-        <div class="card">
-            <h1>Why?</h1>
-            <p>Me and My teammates chose this event because we enjoy programming and making new things. This event gave us a chance to do that and expand on what we know about coding languages like HTML and JavaScript. We also gain experience for do more things like this like jobs or just as a hobbie.</p>
-        </div>
-    </div>
-</body>
-<style>
-    .card-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    .card {
-        margin: 0 50px;
-        background: grey;
-        padding: 15px;
-        border-radius: 20px;
-        width: fit-content;
-        max-width: 400px;
-    }
-    .center-list {
-      list-style-position: inside;
-      text-align: center;
-    }
-</style>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.4823270361385!2d-78.89868692350228!3d35.81264007254499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acec380c84d013%3A0xe5056cd218da6e5f!2sMills%20Park%20Middle%20School!5e0!3m2!1sen!2sus!4v1771694265222!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border:0; position: relative; left: 50px; top: -380px; height: 30vh; width: 20vw;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+        </iframe>
+    </body>
 </html>
