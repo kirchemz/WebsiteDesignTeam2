@@ -2,42 +2,61 @@
 <html>
     <head>
         <title>TSA Website Design MPMS Team 2</title>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet');
-            .card {
-                background: #fff;
-                width: 250px;
-                padding: 20px;
-                border-radius: 12px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-                transition: transform 0.2s ease;
-            }
-            .card-container {
-                display: flex;
-                gap: 20px;
-                justify-content: center;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body style="background-color: rgb(175, 203, 255);">
-        <h1 style="font-size: clamp(1rem, 5vw, 5rem); text-align: center; font-family: Comfortaa;">Mills Park Middle School's Community</h1>
+        <h1 style="font-size: clamp(1em, 5vw, 5em); text-align: center; font-family: Comfortaa;">Mills Park Middle School's Community</h1>
         <div class="card-container">
             <div class="card" style="width: clamp(50px, 45vw, 600px);">
-                <h1 style="text-align: center; font-size: clamp(0.5rem, 5vw, 4rem);">MPMS</h1>
-                <p style="font-family: Comfortaa; text-align: center; font-size: clamp(0.3rem, 3vw, 2rem);">Mills Park Middle School is full of great teachers and students. It was made in 2010 and in these 16 years it has grown a lot. Even through Covid 19 Mills Park has stayed strong and kept making progress. We've won awards like the North Carolina Blue Ribbon Award due to our proficiency, growth, and engagement.</p>
+                <h1 style="text-align: center; font-size: clamp(0.5em, 5vw, 4em);">MPMS</h1>
+                <p style="font-family: Comfortaa; text-align: center; font-size: clamp(0.3em, 3vw, 2em);">Mills Park Middle School is full of great teachers and students. It was made in 2010 and in these 16 years it has grown a lot. Even through Covid 19 Mills Park has stayed strong and kept making progress. We've won awards like the North Carolina Blue Ribbon Award due to our proficiency, growth, and engagement.</p>
             </div>
             <div class="card" style="width: clamp(50px, 20vw, 400px);">
                  <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.4823270361385!2d-78.89868692350228!3d35.81264007254499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acec380c84d013%3A0xe5056cd218da6e5f!2sMills%20Park%20Middle%20School!5e0!3m2!1sen!2sus!4v1771694265222!5m2!1sen!2sus"
                     width="600"
                     height="450"
-                    style="border:0; height: clamp(50px, 60vh, 500px); width: clamp(50px, 20vw, 400px);"
+                    style="border:0;  height: clamp(50px, 60vh, 500px); width: clamp(50px, 20vw, 400px);"
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                     allowfullscreen>
                 </iframe>
-                <h1 style="text-align: center;">MPMS Map</h3>
+                <h1 style="text-align: center;">MPMS Map</h1>
+            </div>
+        </div>
+        <div class="row-2-container" style="position: relative; top: 20px;">
+            <div class="card" style="width: fit-content; height: fit-content; position: relative; top: 50px; left: 20px;">
+                <img src="https://assets-rst7.rschooltoday.com/rst7files/uploads/sites/203/2022/06/06113407/MILLS-PARK-LEOPARDS_FB-4CT_large-768x459.png" alt="MPMS Logo" width="400px" height="200px">
+            </div>
+            <div class="carousel">
+                <div class="carousel-card" style="background: transparent; flex: 0 0 10em;"></div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">2010</h1>
+                    <p style="font-family: Comfortaa; text-align: center; font-size: 2em;">Mills Park is opened on August 15th, 2010.</p>
+                </div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">Card 3</h1>
+                </div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">Card 4</h1>
+                </div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">Card 5</h1>
+                </div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">2022</h1>
+                    <p style="font-family: Comfortaa; text-align: center; font-size: 1.5em;">Mills Park starts its first TSA chapter team kickstarting this journey for us years later.</p>
+                </div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">2025</h1>
+                    <p style="font-family: Comfortaa; text-align: center;  font-size: 1.5em;">Mills Park is one of four schools who is awarded the Blue Ribbon Award based on proficiency from 2023 and 2024.</p>
+                </div>
+                <div class="carousel-card">
+                    <h1 style="text-align: center; font-size: 2em;">2026</h1>
+                    <p style="font-family: Comfortaa; text-align: center; font-size: 1.5em;"></p>
+                </div>
+                <div class="carousel-card" style="background: transparent; flex: 0 0 10em;"></div>
             </div>
         </div>
     </body>

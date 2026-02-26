@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet');
+.card {
+    background: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.carousel-card {
+    scroll-snap-align: center;
+    flex: 0 0 40em;
+    background: #fff;
+    height: 25vh;
+    padding: 20px;
+    border-radius: 12px;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.row-2-container {
+    display: flex;
+    gap: 20px;
+}
+.carousel {
+    background: slateblue;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    overflow-x: auto;
+    margin: 3em auto;
+    display: flex;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --carousel;
+    scroll-snap-type: x mandatory;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.carousel::scroll-button(right) {
+    content: "\2192";
+    font-family: Comfortaa;
+    font-size: 3em;
+    border-radius: 50%;
+    background: #0059ff;
+    width: 64px;
+    height: 64px;
+    padding-bottom: .1em;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: right center;
+    translate: -50%;
+}
+.carousel::scroll-button(left) {
+    content: "\2190";
+    font-family: Comfortaa;
+    font-size: 3em;
+    border-radius: 50%;
+    background: #0059ff;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: left center;
+    translate: 50%;
+}
